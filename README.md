@@ -31,6 +31,9 @@ An intelligent healthcare web application that combines **Machine Learning**, **
 > The demo showcases disease prediction, medical report analysis, AI-assisted healthcare explanations, and conversational support.
 
 ---
+## 🚀 Live Demo
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://shiwangiedulearn-jpg-medisense-ai--home-fkjyj1.streamlit.app/)
 
 # 📑 Table of Contents
 
@@ -655,7 +658,7 @@ streamlit run app.py
 
 # 👩‍💻 Developer
 
-**Shiwangi Rana**
+**Shiwangi**
 
 B.Tech Computer Science Engineering
 
