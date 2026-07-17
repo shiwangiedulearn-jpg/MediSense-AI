@@ -150,11 +150,6 @@ MediSense AI follows a modular architecture where the frontend, machine learning
 
 # 🔄 Application Workflow
 
-The application follows the workflow shown below.
-
-<p align="center">
-<img src="images/architecture_workflow.png" width="100%">
-</p>
 
 ### Workflow Steps
 
