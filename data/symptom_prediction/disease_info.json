@@ -1,0 +1,1073 @@
+{
+        "Fungal infection": {
+                "overall": "Possible Fungal Infection",
+                "summary": "The selected symptoms are consistent with a fungal skin infection. These infections commonly affect the skin, nails, or scalp and are usually treatable with appropriate antifungal medication.",
+                "health_effects": [
+                    "Persistent itching",
+                    "Redness and skin irritation",
+                    "Spread to nearby skin",
+                    "Skin cracking if untreated"
+            ],
+            "diet": [
+                "Limit sugary foods.",
+                "Include probiotic foods such as yogurt.",
+                "Drink adequate water.",
+                "Eat a balanced diet to support immunity."
+            ],
+            "lifestyle": [
+                "Keep the affected area clean and dry.",
+                "Avoid sharing towels or clothing.",
+                "Wear breathable cotton clothing.",
+                "Maintain good personal hygiene."
+            ],
+            "medical": [
+                "Use antifungal medication as prescribed.",
+                "Consult a dermatologist if symptoms worsen or persist.",
+                "Avoid scratching the affected area."
+            ]
+        },
+
+        "Allergy": {
+                "overall": "Possible Allergic Reaction",
+                "summary": "Your symptoms may indicate an allergic reaction caused by environmental, food, medication, or other allergens.",
+                "health_effects": [
+                    "Sneezing and nasal irritation",
+                    "Skin rash or itching",
+                    "Eye irritation",
+                    "Breathing difficulty in severe reactions"
+            ],
+            "diet": [
+                "Avoid known food allergens.",
+                "Stay well hydrated.",
+                "Eat fresh fruits and vegetables."
+            ],
+            "lifestyle": [
+                "Avoid exposure to known allergens.",
+                "Keep indoor air clean.",
+                "Wear a mask when exposed to dust or pollen."
+            ],
+            "medical": [
+                "Take antihistamines if recommended.",
+                "Seek emergency care if breathing becomes difficult.",
+                "Consult an allergy specialist for recurrent symptoms."
+            ]
+        },
+
+        "GERD": {
+                "overall": "Possible Gastroesophageal Reflux Disease (GERD)",
+                "summary": "The selected symptoms suggest acid reflux where stomach acid frequently flows back into the esophagus.",
+                "health_effects": [
+                    "Heartburn",
+                    "Chest discomfort",
+                    "Difficulty swallowing",
+                    "Esophageal irritation"
+            ],
+            "diet": [
+                "Eat smaller meals.",
+                "Avoid spicy and oily foods.",
+                "Reduce caffeine intake.",
+                "Avoid eating close to bedtime."
+            ],
+            "lifestyle": [
+                "Maintain a healthy weight.",
+                "Elevate the head while sleeping.",
+                "Avoid smoking.",
+                "Avoid alcohol."
+            ],
+            "medical": [
+                "Consult a gastroenterologist if symptoms persist.",
+                "Take acid-reducing medication only as advised.",
+                "Seek medical attention for severe chest pain."
+            ]
+        },
+
+        "Chronic cholestasis": {
+                "overall": "Possible Chronic Cholestasis",
+                "summary": "Your symptoms may indicate reduced bile flow from the liver, leading to itching and digestive problems.",
+                "health_effects": [
+                    "Persistent itching",
+                    "Fatigue",
+                    "Jaundice",
+                    "Poor absorption of dietary fats"
+            ],
+            "diet": [
+                "Follow a low-fat diet.",
+                "Eat small frequent meals.",
+                "Include vitamin-rich foods.",
+                "Stay hydrated."
+            ],
+            "lifestyle": [
+                "Avoid alcohol.",
+                "Exercise regularly.",
+                "Maintain liver health."
+            ],
+            "medical": [
+                "Consult a liver specialist.",
+                "Regular liver function monitoring may be required.",
+                "Follow prescribed treatment carefully."
+            ]
+        },
+
+        "Drug Reaction": {
+                "overall": "Possible Drug Reaction",
+                "summary": "The symptoms may be related to an adverse reaction to medication.",
+                "health_effects": [
+                    "Skin rash",
+                    "Swelling",
+                    "Fever",
+                    "Breathing problems in severe reactions"
+            ],
+            "diet": [
+                "Drink plenty of fluids.",
+                "Eat light meals during recovery."
+            ],
+            "lifestyle": [
+                "Avoid taking the suspected medication again unless instructed.",
+                "Keep a record of medication allergies."
+            ],
+            "medical": [
+                "Consult your doctor immediately.",
+                "Seek emergency care if swelling or breathing difficulty develops."
+            ]
+        },
+
+        "Peptic ulcer disease": {
+                "overall": "Possible Peptic Ulcer Disease",
+                "summary": "The symptoms may indicate ulcers in the stomach or upper intestine.",
+                "health_effects": [
+                    "Abdominal pain",
+                    "Indigestion",
+                    "Internal bleeding if severe",
+                    "Reduced appetite"
+            ],
+            "diet": [
+                "Avoid spicy foods.",
+                "Avoid alcohol.",
+                "Eat smaller meals.",
+                "Stay hydrated."
+            ],
+            "lifestyle": [
+                "Stop smoking.",
+                "Reduce stress.",
+                "Avoid unnecessary painkillers."
+            ],
+            "medical": [
+                "Consult a gastroenterologist.",
+                "Complete prescribed ulcer treatment.",
+                "Seek urgent care for vomiting blood or black stools."
+            ]
+        },
+
+        "AIDS": {
+                "overall": "Possible HIV/AIDS Related Illness",
+                "summary": "Some symptoms overlap with HIV/AIDS, but laboratory testing is required for diagnosis. Symptoms alone cannot confirm HIV infection.",
+                "health_effects": [
+                    "Weakened immune system",
+                    "Frequent infections",
+                    "Weight loss",
+                    "Persistent fever"
+            ],
+            "diet": [
+                "Eat a balanced, protein-rich diet.",
+                "Stay hydrated.",
+                "Maintain adequate calorie intake."
+            ],
+            "lifestyle": [
+                "Practice safe sex.",
+                "Avoid sharing needles.",
+                "Maintain regular medical follow-up."
+            ],
+            "medical": [
+                "Seek HIV testing for confirmation.",
+                "Consult an infectious disease specialist.",
+                "Begin treatment promptly if diagnosed."
+            ]
+        },
+
+        "Diabetes": {
+                "overall": "Possible Diabetes",
+                "summary": "The symptoms are consistent with diabetes, a condition where blood sugar levels remain elevated.",
+                "health_effects": [
+                    "High blood sugar",
+                    "Kidney damage",
+                    "Vision problems",
+                    "Nerve damage"
+            ],
+            "diet": [
+                "Reduce refined sugar.",
+                "Increase fiber intake.",
+                "Choose whole grains.",
+                "Eat regular balanced meals."
+            ],
+            "lifestyle": [
+                "Exercise regularly.",
+                "Maintain a healthy weight.",
+                "Monitor blood sugar as advised."
+            ],
+            "medical": [
+                "Consult an endocrinologist.",
+                "Take medications as prescribed.",
+                "Schedule regular health check-ups."
+            ]
+        },
+
+        "Gastroenteritis": {
+                "overall": "Possible Gastroenteritis",
+                "summary": "The symptoms suggest inflammation of the stomach and intestines, usually caused by viral or bacterial infection.",
+                "health_effects": [
+                    "Vomiting",
+                    "Diarrhea",
+                    "Dehydration",
+                    "Abdominal cramps"
+            ],
+            "diet": [
+                "Drink oral rehydration solution.",
+                "Eat bland foods.",
+                "Avoid dairy temporarily.",
+                "Avoid spicy foods."
+            ],
+            "lifestyle": [
+                "Get adequate rest.",
+                "Maintain hand hygiene.",
+                "Avoid preparing food for others until recovered."
+            ],
+            "medical": [
+                "Seek medical care if dehydration becomes severe.",
+                "Consult a doctor if symptoms last more than a few days."
+            ]
+        },
+
+        "Bronchial Asthma": {
+                "overall": "Possible Bronchial Asthma",
+                "summary": "The selected symptoms are compatible with bronchial asthma, a condition that causes airway inflammation and narrowing.",
+                "health_effects": [
+                    "Difficulty breathing",
+                    "Chest tightness",
+                    "Wheezing",
+                    "Reduced physical activity"
+            ],
+            "diet": [
+                "Maintain a balanced diet.",
+                "Drink adequate water.",
+                "Avoid foods that trigger allergies if applicable."
+            ],
+            "lifestyle": [
+                "Avoid smoke and dust exposure.",
+                "Exercise within your tolerance.",
+                "Follow your asthma action plan."
+            ],
+            "medical": [
+                "Carry your prescribed inhaler.",
+                "Consult a pulmonologist for persistent symptoms.",
+                "Seek emergency care for severe breathing difficulty."
+            ]
+        },
+        "Hypertension": {
+            "overall": "Possible Hypertension",
+            "summary": "The selected symptoms may indicate high blood pressure. Hypertension often develops without obvious symptoms but can increase the risk of serious health complications if left untreated.",
+            "health_effects": [
+                "Persistent high blood pressure",
+                "Increased risk of heart disease",
+                "Stroke risk",
+                "Kidney damage"
+            ],
+            "diet": [
+                "Reduce salt intake.",
+                "Eat more fruits and vegetables.",
+                "Choose whole grains.",
+                "Limit processed foods."
+            ],
+            "lifestyle": [
+                "Exercise regularly.",
+                "Maintain a healthy weight.",
+                "Avoid smoking.",
+                "Manage stress effectively."
+            ],
+            "medical": [
+                "Monitor blood pressure regularly.",
+                "Take prescribed medications consistently.",
+                "Consult a physician for ongoing management."
+            ]
+        },
+
+        "Migraine": {
+            "overall": "Possible Migraine",
+            "summary": "Your symptoms may be consistent with migraine, a neurological condition characterized by recurrent headaches and other associated symptoms.",
+            "health_effects": [
+                "Severe headache",
+                "Sensitivity to light and sound",
+                "Nausea",
+                "Reduced daily productivity"
+            ],
+            "diet": [
+                "Stay well hydrated.",
+                "Avoid known food triggers.",
+                "Eat regular meals.",
+                "Limit excessive caffeine."
+            ],
+            "lifestyle": [
+                "Maintain regular sleep patterns.",
+                "Reduce stress.",
+                "Rest in a quiet, dark room during attacks."
+            ],
+            "medical": [
+                "Consult a neurologist if migraines are frequent.",
+                "Use prescribed migraine medication.",
+                "Seek medical evaluation for sudden severe headaches."
+            ]
+        },
+
+        "Cervical spondylosis": {
+            "overall": "Possible Cervical Spondylosis",
+            "summary": "The symptoms suggest age-related wear and tear affecting the cervical spine, which may cause neck pain and stiffness.",
+            "health_effects": [
+                "Neck pain",
+                "Shoulder pain",
+                "Numbness in arms",
+                "Reduced neck movement"
+            ],
+            "diet": [
+                "Eat calcium-rich foods.",
+                "Include vitamin D sources.",
+                "Maintain adequate protein intake."
+            ],
+            "lifestyle": [
+                "Maintain proper posture.",
+                "Perform neck stretching exercises.",
+                "Avoid prolonged screen time without breaks."
+            ],
+            "medical": [
+                "Consult an orthopedic specialist.",
+                "Attend physiotherapy if recommended.",
+                "Take medications only as prescribed."
+            ]
+        },
+
+        "Paralysis (brain hemorrhage)": {
+            "overall": "Possible Neurological Emergency",
+            "summary": "The symptoms may indicate a serious neurological condition requiring immediate medical evaluation.",
+            "health_effects": [
+                "Muscle weakness",
+                "Loss of movement",
+                "Speech difficulties",
+                "Reduced coordination"
+            ],
+            "diet": [
+                "Follow a balanced diet after medical stabilization.",
+                "Maintain hydration.",
+                "Limit excess salt."
+            ],
+            "lifestyle": [
+                "Attend rehabilitation therapy.",
+                "Follow prescribed exercise programs.",
+                "Prevent falls."
+            ],
+            "medical": [
+                "Seek emergency medical care immediately.",
+                "Consult a neurologist.",
+                "Follow rehabilitation recommendations."
+            ]
+        },
+
+        "Jaundice": {
+            "overall": "Possible Jaundice",
+            "summary": "The symptoms may indicate jaundice, a condition where bilirubin levels become elevated, causing yellowing of the skin and eyes.",
+            "health_effects": [
+                "Yellow skin",
+                "Yellow eyes",
+                "Fatigue",
+                "Liver dysfunction"
+            ],
+            "diet": [
+                "Drink plenty of water.",
+                "Eat fresh fruits and vegetables.",
+                "Choose low-fat meals.",
+                "Avoid alcohol."
+            ],
+            "lifestyle": [
+                "Get adequate rest.",
+                "Maintain good hygiene.",
+                "Avoid unnecessary medications."
+            ],
+            "medical": [
+                "Consult a physician promptly.",
+                "Undergo liver function testing if advised.",
+                "Follow prescribed treatment."
+            ]
+        },
+
+        "Malaria": {
+            "overall": "Possible Malaria",
+            "summary": "Your symptoms may suggest malaria, a mosquito-borne infection that requires prompt diagnosis and treatment.",
+            "health_effects": [
+                "High fever",
+                "Chills",
+                "Sweating",
+                "Fatigue"
+            ],
+            "diet": [
+                "Drink plenty of fluids.",
+                "Eat light nutritious meals.",
+                "Increase vitamin-rich foods."
+            ],
+            "lifestyle": [
+                "Get adequate rest.",
+                "Sleep under mosquito nets.",
+                "Avoid mosquito exposure."
+            ],
+            "medical": [
+                "Seek medical evaluation immediately.",
+                "Complete the full course of antimalarial medication if prescribed.",
+                "Return for care if symptoms worsen."
+            ]
+        },
+
+        "Chicken pox": {
+            "overall": "Possible Chickenpox",
+            "summary": "The selected symptoms may indicate chickenpox, a contagious viral illness that usually causes an itchy rash and fever.",
+            "health_effects": [
+                "Skin rash",
+                "Fever",
+                "Itching",
+                "Fatigue"
+            ],
+            "diet": [
+                "Drink plenty of fluids.",
+                "Eat soft nutritious foods.",
+                "Maintain a balanced diet."
+            ],
+            "lifestyle": [
+                "Avoid scratching blisters.",
+                "Rest adequately.",
+                "Avoid close contact with others until recovery."
+            ],
+            "medical": [
+                "Consult a healthcare professional.",
+                "Take medications only as advised.",
+                "Seek care if breathing problems develop."
+            ]
+        },
+
+        "Dengue": {
+            "overall": "Possible Dengue Fever",
+            "summary": "The symptoms may indicate dengue fever, a mosquito-borne viral infection that requires close monitoring.",
+            "health_effects": [
+                "High fever",
+                "Severe body pain",
+                "Low platelet count",
+                "Risk of bleeding"
+            ],
+            "diet": [
+                "Drink plenty of fluids.",
+                "Eat fruits rich in vitamin C.",
+                "Choose easily digestible foods."
+            ],
+            "lifestyle": [
+                "Get complete rest.",
+                "Prevent mosquito bites.",
+                "Monitor for warning signs."
+            ],
+            "medical": [
+                "Seek prompt medical evaluation.",
+                "Monitor platelet count as advised.",
+                "Seek emergency care for severe bleeding or persistent vomiting."
+            ]
+        },
+
+        "Typhoid": {
+            "overall": "Possible Typhoid Fever",
+            "summary": "The symptoms may suggest typhoid fever, a bacterial infection commonly spread through contaminated food or water.",
+            "health_effects": [
+                "Persistent fever",
+                "Weakness",
+                "Abdominal pain",
+                "Loss of appetite"
+            ],
+            "diet": [
+                "Drink safe drinking water.",
+                "Eat soft nutritious meals.",
+                "Avoid spicy foods."
+            ],
+            "lifestyle": [
+                "Practice proper hand hygiene.",
+                "Get adequate rest.",
+                "Avoid outside food during recovery."
+            ],
+            "medical": [
+                "Consult a physician promptly.",
+                "Complete the prescribed antibiotic course.",
+                "Seek medical attention if symptoms worsen."
+            ]
+        },
+
+        "Hepatitis A": {
+            "overall": "Possible Hepatitis A",
+            "summary": "The selected symptoms may indicate Hepatitis A, a viral infection affecting the liver that usually spreads through contaminated food or water.",
+            "health_effects": [
+                "Liver inflammation",
+                "Fatigue",
+                "Jaundice",
+                "Loss of appetite"
+            ],
+            "diet": [
+                "Drink adequate fluids.",
+                "Eat a low-fat nutritious diet.",
+                "Avoid alcohol."
+            ],
+            "lifestyle": [
+                "Get plenty of rest.",
+                "Maintain proper hygiene.",
+                "Avoid sharing personal items."
+            ],
+            "medical": [
+                "Consult a physician.",
+                "Monitor liver function if advised.",
+                "Follow medical recommendations until recovery."
+            ]
+        },
+        "Hepatitis B": {
+            "overall": "Possible Hepatitis B",
+            "summary": "Your symptoms may indicate Hepatitis B, a viral infection that affects the liver and may become chronic if not properly managed.",
+            "health_effects": [
+                "Liver inflammation",
+                "Fatigue",
+                "Jaundice",
+                "Risk of chronic liver disease"
+            ],
+            "diet": [
+                "Eat a balanced, low-fat diet.",
+                "Drink plenty of water.",
+                "Include fresh fruits and vegetables.",
+                "Avoid alcohol completely."
+            ],
+            "lifestyle": [
+                "Get adequate rest.",
+                "Practice safe sex.",
+                "Avoid sharing needles or razors."
+            ],
+            "medical": [
+                "Consult a hepatologist or physician.",
+                "Follow prescribed antiviral treatment if needed.",
+                "Monitor liver function regularly."
+            ]
+        },
+
+        "Hepatitis C": {
+            "overall": "Possible Hepatitis C",
+            "summary": "The symptoms may suggest Hepatitis C, a viral liver infection that often requires laboratory testing for confirmation.",
+            "health_effects": [
+                "Liver inflammation",
+                "Fatigue",
+                "Loss of appetite",
+                "Risk of liver cirrhosis"
+            ],
+            "diet": [
+                "Eat nutritious meals.",
+                "Stay hydrated.",
+                "Avoid alcohol."
+            ],
+            "lifestyle": [
+                "Exercise moderately.",
+                "Avoid sharing personal hygiene items.",
+                "Attend regular medical follow-up."
+            ],
+            "medical": [
+                "Consult a liver specialist.",
+                "Complete antiviral treatment if prescribed.",
+                "Schedule routine liver evaluations."
+            ]
+        },
+
+        "Hepatitis D": {
+            "overall": "Possible Hepatitis D",
+            "summary": "The symptoms may indicate Hepatitis D, which occurs in people already infected with Hepatitis B.",
+            "health_effects": [
+                "Severe liver inflammation",
+                "Fatigue",
+                "Jaundice",
+                "Progressive liver damage"
+            ],
+            "diet": [
+                "Eat healthy balanced meals.",
+                "Avoid alcohol.",
+                "Drink sufficient fluids."
+            ],
+            "lifestyle": [
+                "Rest adequately.",
+                "Follow liver-friendly habits.",
+                "Avoid unnecessary medications."
+            ],
+            "medical": [
+                "Consult a hepatologist immediately.",
+                "Monitor liver function regularly.",
+                "Follow prescribed treatment."
+            ]
+        },
+
+        "Hepatitis E": {
+            "overall": "Possible Hepatitis E",
+            "summary": "The symptoms may suggest Hepatitis E, a viral infection commonly transmitted through contaminated water.",
+            "health_effects": [
+                "Liver inflammation",
+                "Fatigue",
+                "Jaundice",
+                "Digestive discomfort"
+            ],
+            "diet": [
+                "Drink clean water.",
+                "Eat freshly prepared meals.",
+                "Avoid fatty foods."
+            ],
+            "lifestyle": [
+                "Practice good hygiene.",
+                "Get sufficient rest.",
+                "Avoid alcohol."
+            ],
+            "medical": [
+                "Consult a healthcare professional.",
+                "Follow liver function monitoring if advised.",
+                "Seek immediate care if symptoms worsen."
+            ]
+        },
+
+        "Alcoholic hepatitis": {
+            "overall": "Possible Alcoholic Hepatitis",
+            "summary": "Your symptoms may indicate liver inflammation related to excessive alcohol consumption.",
+            "health_effects": [
+                "Liver damage",
+                "Fatigue",
+                "Jaundice",
+                "Abdominal discomfort"
+            ],
+            "diet": [
+                "Eat a high-protein balanced diet.",
+                "Drink adequate water.",
+                "Increase vitamin-rich foods."
+            ],
+            "lifestyle": [
+                "Completely avoid alcohol.",
+                "Exercise moderately after recovery.",
+                "Maintain healthy body weight."
+            ],
+            "medical": [
+                "Consult a liver specialist.",
+                "Seek support for alcohol cessation if needed.",
+                "Follow prescribed medications."
+            ]
+        },
+
+        "Tuberculosis": {
+            "overall": "Possible Tuberculosis",
+            "summary": "The symptoms may indicate tuberculosis, a bacterial infection that commonly affects the lungs.",
+            "health_effects": [
+                "Persistent cough",
+                "Weight loss",
+                "Night sweats",
+                "Fatigue"
+            ],
+            "diet": [
+                "Eat protein-rich foods.",
+                "Increase calorie intake.",
+                "Drink adequate fluids."
+            ],
+            "lifestyle": [
+                "Get adequate rest.",
+                "Cover your mouth while coughing.",
+                "Ensure good ventilation."
+            ],
+            "medical": [
+                "Consult a physician immediately.",
+                "Complete the entire TB treatment course.",
+                "Attend regular follow-up visits."
+            ]
+        },
+
+        "Common Cold": {
+            "overall": "Possible Common Cold",
+            "summary": "Your symptoms are consistent with the common cold, a viral infection affecting the upper respiratory tract.",
+            "health_effects": [
+                "Runny nose",
+                "Sneezing",
+                "Sore throat",
+                "Mild fever"
+            ],
+            "diet": [
+                "Drink warm fluids.",
+                "Eat vitamin C-rich fruits.",
+                "Stay hydrated."
+            ],
+            "lifestyle": [
+                "Rest adequately.",
+                "Wash hands frequently.",
+                "Avoid close contact with others."
+            ],
+            "medical": [
+                "Consult a doctor if symptoms persist beyond 10 days.",
+                "Use medications only as advised."
+            ]
+        },
+
+        "Pneumonia": {
+            "overall": "Possible Pneumonia",
+            "summary": "The symptoms may indicate pneumonia, an infection causing inflammation of the lungs.",
+            "health_effects": [
+                "High fever",
+                "Chest pain",
+                "Difficulty breathing",
+                "Persistent cough"
+            ],
+            "diet": [
+                "Drink plenty of fluids.",
+                "Eat nutritious meals.",
+                "Increase protein intake."
+            ],
+            "lifestyle": [
+                "Get complete rest.",
+                "Avoid smoking.",
+                "Practice breathing exercises after recovery."
+            ],
+            "medical": [
+                "Consult a physician promptly.",
+                "Complete prescribed antibiotics if bacterial.",
+                "Seek emergency care for severe breathing difficulty."
+            ]
+        },
+
+        "Dimorphic hemmorhoids(piles)": {
+            "overall": "Possible Hemorrhoids (Piles)",
+            "summary": "The selected symptoms may indicate swollen veins in the rectum or anus, commonly known as piles.",
+            "health_effects": [
+                "Pain during bowel movements",
+                "Rectal bleeding",
+                "Itching",
+                "Discomfort while sitting"
+            ],
+            "diet": [
+                "Increase dietary fiber.",
+                "Drink plenty of water.",
+                "Eat fruits and vegetables."
+            ],
+            "lifestyle": [
+                "Avoid prolonged sitting.",
+                "Exercise regularly.",
+                "Avoid straining during bowel movements."
+            ],
+            "medical": [
+                "Consult a physician if bleeding persists.",
+                "Use medications as prescribed.",
+                "Seek evaluation for severe pain."
+            ]
+        },
+
+        "Heart attack": {
+            "overall": "Possible Heart Attack",
+            "summary": "Your symptoms may indicate a heart attack, a medical emergency requiring immediate attention.",
+            "health_effects": [
+                "Chest pain",
+                "Reduced blood flow to the heart",
+                "Breathing difficulty",
+                "Risk of permanent heart damage"
+            ],
+            "diet": [
+                "Follow a heart-healthy diet after medical stabilization.",
+                "Reduce saturated fats.",
+                "Limit salt intake."
+            ],
+            "lifestyle": [
+                "Avoid smoking.",
+                "Exercise only after medical clearance.",
+                "Manage stress effectively."
+            ],
+            "medical": [
+                "Call emergency medical services immediately if symptoms are ongoing.",
+                "Do not delay seeking medical care.",
+                "Follow all cardiologist recommendations after treatment."
+            ]
+        },
+        "Varicose veins": {
+            "overall": "Possible Varicose Veins",
+            "summary": "Your symptoms may indicate enlarged and swollen veins, most commonly affecting the legs due to weakened vein valves.",
+            "health_effects": [
+                "Leg pain",
+                "Swollen veins",
+                "Leg heaviness",
+                "Skin discoloration"
+            ],
+            "diet": [
+                "Eat high-fiber foods.",
+                "Reduce salt intake.",
+                "Maintain a healthy weight.",
+                "Stay hydrated."
+            ],
+            "lifestyle": [
+                "Avoid prolonged standing.",
+                "Elevate your legs while resting.",
+                "Exercise regularly.",
+                "Wear compression stockings if recommended."
+            ],
+            "medical": [
+                "Consult a vascular specialist.",
+                "Follow prescribed treatment.",
+                "Seek medical care if ulcers or severe pain develop."
+            ]
+        },
+
+        "Hypothyroidism": {
+            "overall": "Possible Hypothyroidism",
+            "summary": "The symptoms may indicate an underactive thyroid gland, which slows down the body's metabolism.",
+            "health_effects": [
+                "Fatigue",
+                "Weight gain",
+                "Cold intolerance",
+                "Dry skin"
+            ],
+            "diet": [
+                "Eat iodine-containing foods in moderation.",
+                "Consume selenium-rich foods.",
+                "Maintain a balanced diet."
+            ],
+            "lifestyle": [
+                "Exercise regularly.",
+                "Maintain a healthy body weight.",
+                "Get adequate sleep."
+            ],
+            "medical": [
+                "Consult an endocrinologist.",
+                "Take thyroid medication exactly as prescribed.",
+                "Schedule regular thyroid function tests."
+            ]
+        },
+
+        "Hyperthyroidism": {
+            "overall": "Possible Hyperthyroidism",
+            "summary": "The selected symptoms may suggest an overactive thyroid gland that produces excess thyroid hormones.",
+            "health_effects": [
+                "Weight loss",
+                "Rapid heartbeat",
+                "Anxiety",
+                "Excessive sweating"
+            ],
+            "diet": [
+                "Eat a balanced diet.",
+                "Stay hydrated.",
+                "Limit excessive iodine intake if advised."
+            ],
+            "lifestyle": [
+                "Reduce stress.",
+                "Get adequate sleep.",
+                "Avoid smoking."
+            ],
+            "medical": [
+                "Consult an endocrinologist.",
+                "Follow prescribed treatment.",
+                "Attend regular thyroid check-ups."
+            ]
+        },
+
+        "Hypoglycemia": {
+            "overall": "Possible Hypoglycemia",
+            "summary": "Your symptoms may indicate low blood sugar, which can occur in people with or without diabetes.",
+            "health_effects": [
+                "Dizziness",
+                "Sweating",
+                "Confusion",
+                "Loss of consciousness in severe cases"
+            ],
+            "diet": [
+                "Eat regular meals.",
+                "Carry a quick source of glucose.",
+                "Avoid skipping meals."
+            ],
+            "lifestyle": [
+                "Monitor blood sugar if advised.",
+                "Exercise safely.",
+                "Recognize early warning signs."
+            ],
+            "medical": [
+                "Seek immediate medical care if symptoms are severe.",
+                "Consult your physician regarding medication adjustments."
+            ]
+        },
+
+        "Osteoarthritis": {
+            "overall": "Possible Osteoarthritis",
+            "summary": "The symptoms are consistent with osteoarthritis, a condition caused by gradual wear and tear of joints.",
+            "health_effects": [
+                "Joint pain",
+                "Joint stiffness",
+                "Reduced mobility",
+                "Swelling"
+            ],
+            "diet": [
+                "Maintain a healthy weight.",
+                "Eat calcium-rich foods.",
+                "Include vitamin D sources."
+            ],
+            "lifestyle": [
+                "Perform low-impact exercises.",
+                "Avoid excessive joint strain.",
+                "Practice stretching exercises."
+            ],
+            "medical": [
+                "Consult an orthopedic specialist.",
+                "Attend physiotherapy if recommended.",
+                "Take medications only as prescribed."
+            ]
+        },
+
+        "Arthritis": {
+            "overall": "Possible Arthritis",
+            "summary": "The selected symptoms may indicate inflammation of the joints leading to pain, stiffness, and swelling.",
+            "health_effects": [
+                "Joint pain",
+                "Joint swelling",
+                "Morning stiffness",
+                "Reduced mobility"
+            ],
+            "diet": [
+                "Eat omega-3-rich foods.",
+                "Maintain a healthy weight.",
+                "Consume anti-inflammatory foods."
+            ],
+            "lifestyle": [
+                "Exercise regularly.",
+                "Protect affected joints.",
+                "Maintain proper posture."
+            ],
+            "medical": [
+                "Consult a rheumatologist.",
+                "Follow prescribed treatment.",
+                "Attend regular follow-up appointments."
+            ]
+        },
+
+        "(vertigo) Paroymsal Positional Vertigo": {
+            "overall": "Possible Benign Paroxysmal Positional Vertigo (BPPV)",
+            "summary": "Your symptoms may indicate positional vertigo, a condition causing brief episodes of dizziness triggered by changes in head position.",
+            "health_effects": [
+                "Dizziness",
+                "Loss of balance",
+                "Nausea",
+                "Risk of falls"
+            ],
+            "diet": [
+                "Stay hydrated.",
+                "Maintain balanced meals.",
+                "Limit alcohol."
+            ],
+            "lifestyle": [
+                "Move slowly when changing positions.",
+                "Avoid sudden head movements.",
+                "Take precautions to prevent falls."
+            ],
+            "medical": [
+                "Consult an ENT specialist or neurologist.",
+                "Vestibular rehabilitation may be recommended.",
+                "Seek evaluation if symptoms persist."
+            ]
+        },
+
+        "Acne": {
+            "overall": "Possible Acne",
+            "summary": "The symptoms suggest acne, a common skin condition caused by blocked hair follicles and excess oil production.",
+            "health_effects": [
+                "Pimples",
+                "Blackheads",
+                "Whiteheads",
+                "Possible acne scars"
+            ],
+            "diet": [
+                "Eat a balanced diet.",
+                "Limit sugary foods if they worsen symptoms.",
+                "Drink plenty of water."
+            ],
+            "lifestyle": [
+                "Wash your face gently twice daily.",
+                "Avoid picking pimples.",
+                "Use non-comedogenic skincare products."
+            ],
+            "medical": [
+                "Consult a dermatologist if acne is severe.",
+                "Use medications only as advised.",
+                "Seek early treatment to reduce scarring."
+            ]
+        },
+
+        "Urinary tract infection": {
+            "overall": "Possible Urinary Tract Infection",
+            "summary": "The selected symptoms may indicate a urinary tract infection affecting the bladder or urinary system.",
+            "health_effects": [
+                "Painful urination",
+                "Frequent urination",
+                "Lower abdominal discomfort",
+                "Fever if infection spreads"
+            ],
+            "diet": [
+                "Drink plenty of water.",
+                "Avoid excessive caffeine.",
+                "Maintain adequate hydration."
+            ],
+            "lifestyle": [
+                "Maintain proper personal hygiene.",
+                "Avoid holding urine for long periods.",
+                "Wear breathable cotton underwear."
+            ],
+            "medical": [
+                "Consult a physician promptly.",
+                "Complete the prescribed antibiotic course.",
+                "Seek urgent care if fever or back pain develops."
+            ]
+        },
+
+        "Psoriasis": {
+            "overall": "Possible Psoriasis",
+            "summary": "Your symptoms may indicate psoriasis, a chronic autoimmune skin condition causing red, scaly patches.",
+            "health_effects": [
+                "Skin plaques",
+                "Itching",
+                "Dry skin",
+                "Joint involvement in some patients"
+            ],
+            "diet": [
+                "Eat anti-inflammatory foods.",
+                "Maintain a healthy weight.",
+                "Stay hydrated."
+            ],
+            "lifestyle": [
+                "Keep the skin moisturized.",
+                "Reduce stress.",
+                "Avoid known triggers."
+            ],
+            "medical": [
+                "Consult a dermatologist.",
+                "Use medications as prescribed.",
+                "Attend regular follow-up appointments."
+            ]
+        },
+
+        "Impetigo": {
+            "overall": "Possible Impetigo",
+            "summary": "The symptoms may indicate impetigo, a contagious bacterial skin infection commonly seen in children but possible at any age.",
+            "health_effects": [
+                "Skin sores",
+                "Blisters",
+                "Itching",
+                "Spread of infection"
+            ],
+            "diet": [
+                "Eat a balanced diet.",
+                "Drink adequate fluids.",
+                "Support immune health with nutritious foods."
+            ],
+            "lifestyle": [
+                "Keep the affected area clean.",
+                "Avoid scratching.",
+                "Do not share towels or personal items."
+            ],
+            "medical": [
+                "Consult a healthcare professional.",
+                "Complete the prescribed antibiotic treatment.",
+                "Keep the infected area covered until healed."
+            ]
+        }
+    }
