@@ -1,0 +1,11 @@
+.app-content {
+    margin-left: 270px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .app-content {
+        margin-left: 0;
+    }
+}
