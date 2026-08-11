@@ -154,7 +154,7 @@ export default function LipidProfile() {
             );
 
             const response = await fetch(
-                "https://medisense-ai-4zpl.onrender.com/lipid/extract",
+                "https://medisense-ai-backend-q7dk.onrender.com/lipid/extract",
                 {
                     method: "POST",
                     body: formData
@@ -247,7 +247,7 @@ export default function LipidProfile() {
         try {
 
             const response = await fetch(
-                "https://medisense-ai-4zpl.onrender.com/lipid/predict",
+                "https://medisense-ai-backend-q7dk.onrender.com/lipid/predict",
                 {
                     method: "POST",
 
@@ -476,7 +476,7 @@ export default function LipidProfile() {
 
 
             const response = await fetch(
-                "https://medisense-ai-4zpl.onrender.com/lipid/chat",
+                "https://medisense-ai-backend-q7dk.onrender.com/lipid/chat",
                 {
                     method: "POST",
 

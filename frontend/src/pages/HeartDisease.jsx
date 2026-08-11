@@ -10,7 +10,7 @@ import {
 
 import "./HeartDisease.css";
 
-const API_URL = "https://medisense-ai-4zpl.onrender.com";
+const API_URL = "https://medisense-ai-backend-q7dk.onrender.com";
 
 const defaultValues = {
   cp: 3,

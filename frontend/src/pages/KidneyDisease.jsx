@@ -212,7 +212,7 @@ export default function KidneyDisease() {
 
             const response =
                 await fetch(
-                    "https://medisense-ai-4zpl.onrender.com/kidney/extract",
+                    "https://medisense-ai-backend-q7dk.onrender.com/kidney/extract",
                     {
                         method: "POST",
                         body: formData
@@ -338,7 +338,7 @@ export default function KidneyDisease() {
 
             const response =
                 await fetch(
-                    "https://medisense-ai-4zpl.onrender.com/kidney/predict",
+                    "https://medisense-ai-backend-q7dk.onrender.com/kidney/predict",
                     {
                         method: "POST",
 
@@ -608,7 +608,7 @@ export default function KidneyDisease() {
 
             const response =
                 await fetch(
-                    "https://medisense-ai-4zpl.onrender.com/kidney/chat",
+                    "https://medisense-ai-backend-q7dk.onrender.com/kidney/chat",
                     {
                         method: "POST",
 
