@@ -356,7 +356,7 @@ export default function SymptomChecker() {
 
 
             const response = await fetch(
-                "http://127.0.0.1:8000/symptom/predict",
+                "https://medisense-ai-4zpl.onrender.com/symptom/predict",
                 {
 
                     method: "POST",
@@ -547,7 +547,7 @@ export default function SymptomChecker() {
 
 
             const response = await fetch(
-                "http://127.0.0.1:8000/symptom/chat",
+                "https://medisense-ai-4zpl.onrender.com/symptom/chat",
                 {
 
                     method: "POST",

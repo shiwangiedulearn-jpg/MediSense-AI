@@ -149,7 +149,7 @@ export default function Diabetes() {
             );
 
             const response = await fetch(
-                "http://127.0.0.1:8000/diabetes/extract",
+                "https://medisense-ai-4zpl.onrender.com/diabetes/extract",
                 {
                     method: "POST",
                     body: formData
@@ -251,7 +251,7 @@ export default function Diabetes() {
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:8000/diabetes/predict",
+                "https://medisense-ai-4zpl.onrender.com/diabetes/predict",
                 {
                     method: "POST",
 
@@ -444,7 +444,7 @@ export default function Diabetes() {
             };
 
             const response = await fetch(
-                "http://127.0.0.1:8000/diabetes/chat",
+                "https://medisense-ai-4zpl.onrender.com/diabetes/chat",
                 {
                     method: "POST",
 

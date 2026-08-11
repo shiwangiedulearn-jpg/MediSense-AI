@@ -140,7 +140,7 @@ export default function LiverDisease() {
             );
 
             const response = await fetch(
-                "http://127.0.0.1:8000/liver/extract",
+                "https://medisense-ai-4zpl.onrender.com/liver/extract",
                 {
                     method: "POST",
                     body: formData
@@ -234,7 +234,7 @@ export default function LiverDisease() {
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:8000/liver/predict",
+                "https://medisense-ai-4zpl.onrender.com/liver/predict",
                 {
                     method: "POST",
 
@@ -432,7 +432,7 @@ export default function LiverDisease() {
             };
 
             const response = await fetch(
-                "http://127.0.0.1:8000/liver/chat",
+                "https://medisense-ai-4zpl.onrender.com/liver/chat",
                 {
                     method: "POST",
 
