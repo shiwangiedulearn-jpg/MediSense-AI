@@ -1,699 +1,689 @@
-<div align="center">
-
 # 🩺 MediSense AI
 
-### AI-Powered Healthcare Diagnosis Assistant
-
-An intelligent healthcare web application that combines **Machine Learning**, **Optical Character Recognition (OCR)**, and **Large Language Models (LLMs)** to provide disease prediction, medical report analysis, personalized health recommendations, and an interactive AI-powered healthcare assistant.
-
-<img src="images/home2.png" width="100%">
-
----
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Web_App-red?logo=streamlit)
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green?logo=opencv)
-![Tesseract OCR](https://img.shields.io/badge/OCR-pytesseract-purple)
-![Groq API](https://img.shields.io/badge/Groq-LLM-black)
-![License](https://img.shields.io/badge/License-MIT-success)
-
-</div>
-
----
-
-# 🎥 Live Demonstration
+### AI-Powered Healthcare Diagnosis & Medical Report Analysis Assistant
 
 <p align="center">
-<img src="images/demo.gif" width="900">
+  <b>Understand your health reports. Analyze disease risks. Get AI-powered guidance.</b>
 </p>
 
-> The demo showcases disease prediction, medical report analysis, AI-assisted healthcare explanations, and conversational support.
-
----
-## 🚀 Deployement Link
-
-🌐 **MediSense AI:** https://shiwangiedulearn-jpg-medisense-ai--home-fkjyj1.streamlit.app/
-
-# 📑 Table of Contents
-
-- About the Project
-- Key Features
-- System Architecture
-- Complete Workflow
-- Project Structure
-- Application Modules
-- Machine Learning Models
-- OCR Pipeline
-- AI Healthcare Assistant
-- Screenshots
-- Technology Stack
-- Installation
-- Usage
-- Future Enhancements
-- Developer
-- License
+<p align="center">
+  <a href="https://medi-sense-ai-eight-nu.vercel.app/">🌐 Live Demo</a> •
+  <a href="https://medisense-ai-backend-q7dk.onrender.com/docs">📚 API Documentation</a> •
+  <a href="https://github.com/shiwangiedulearn-jpg/MediSense-AI">💻 GitHub</a>
+</p>
 
 ---
 
-# 📖 About the Project
+## 📌 Overview
 
-Healthcare applications often provide disease prediction but fail to explain results in a way that patients can easily understand. Medical reports contain valuable clinical information, yet many users struggle to interpret laboratory values, understand disease risks, or determine appropriate next steps.
+**MediSense AI** is a full-stack AI-powered healthcare assistance platform that combines **Machine Learning, medical report extraction, OCR, and an AI healthcare assistant** into a single application.
 
-**MediSense AI** bridges this gap by integrating machine learning, OCR technology, and conversational AI into a single intelligent healthcare platform.
+The system allows users to:
 
-The application predicts multiple diseases, extracts information from uploaded medical reports using Optical Character Recognition (OCR), performs lipid profile analysis, provides symptom-based health assessment, and offers an AI-powered medical assistant capable of answering follow-up questions based on prediction results.
+* Analyze disease-specific health information
+* Upload medical reports
+* Automatically extract relevant medical values
+* Review and correct extracted values
+* Generate ML-based predictions
+* Calculate BMI and provide health insights
+* Receive personalized lifestyle and dietary recommendations
+* Ask follow-up questions to an AI healthcare assistant
 
-Unlike traditional prediction systems, MediSense AI focuses on delivering **understandable**, **interactive**, and **personalized** healthcare guidance while maintaining a modular architecture that supports future expansion.
+The goal is to make complex medical information easier to understand for people who may not have a medical background.
+
+> ⚠️ **Medical Disclaimer:** MediSense AI is intended for educational and informational purposes. Its predictions should not be treated as a confirmed medical diagnosis or a replacement for professional medical advice.
+
+---
+
+# 🌐 Live Application
+
+### 🚀 MediSense AI
+
+**Live Website:**
+https://medi-sense-ai-eight-nu.vercel.app/
+
+**Backend API:**
+https://medisense-ai-backend-q7dk.onrender.com/
+
+**Swagger API Documentation:**
+https://medisense-ai-backend-q7dk.onrender.com/docs
+
+---
+
+# 🖥️ Application Preview
+
+## 🏠 Home Dashboard
+
+![MediSense AI Home](screenshots/home.png)
+
+The home interface provides access to the different healthcare modules through a responsive sidebar navigation.
 
 ---
 
 # ✨ Key Features
 
-✅ Heart Disease Prediction
+### 🏥 Multi-Disease Analysis
 
-✅ Diabetes Prediction
+MediSense AI contains separate modules for:
 
-✅ Kidney Disease Prediction
+* ❤️ Heart Disease
+* 🩸 Diabetes
+* 🫁 Liver Disease
+* 🫘 Kidney Disease
+* 🧪 Lipid Profile
+* 🩺 Symptom Checker
 
-✅ Liver Disease Prediction
-
-✅ Lipid Profile Analysis
-
-✅ Symptom Checker
-
-✅ Medical Report OCR using pytesseract
-
-✅ AI-powered Healthcare Assistant
-
-✅ Personalized Health Recommendations
-
-✅ Interactive Chat using Groq Llama Models
-
-✅ Clean Streamlit User Interface
-
-✅ Modular Multi-page Architecture
-
-✅ Real-time Prediction Results
-
-✅ Disease Explanation and Follow-up Q&A
+Each module has its own input structure, prediction logic, and analysis workflow.
 
 ---
 
-# 🎯 Objectives
+### 📄 Medical Report Analysis
 
-- Predict multiple diseases using Machine Learning.
-- Extract medical information from uploaded reports.
-- Improve healthcare accessibility using AI.
-- Explain medical predictions in simple language.
-- Provide personalized recommendations.
-- Build a scalable healthcare assistant platform.
+Users can upload medical reports instead of manually entering every medical value.
 
----
+Supported formats include:
 
-# 🚀 Application Overview
+* PDF
+* JPG
+* PNG
 
-<p align="center">
-<img src="images/sidebar.png" width="280">
-</p>
+The system processes the uploaded document and extracts relevant medical parameters.
 
-The application consists of six healthcare modules integrated into a single Streamlit application:
-
-| Module | Description |
-|---------|-------------|
-| ❤️ Heart Disease | Predicts cardiovascular disease risk |
-| 🩸 Diabetes | Predicts diabetes based on clinical parameters |
-| 🟤 Kidney Disease | Detects chronic kidney disease |
-| 🟢 Liver Disease | Predicts liver disorders |
-| 🟡 Lipid Profile | Analyzes cholesterol values and cardiovascular risk |
-| 🩹 Symptom Checker | Suggests possible health conditions based on symptoms |
-
----
-
-# 🏗️ System Architecture
-
-MediSense AI follows a modular architecture where the frontend, machine learning models, OCR engine, and AI assistant work together to provide an end-to-end healthcare solution.
-
-<p align="center">
-<img src="images/architecture_workflow.png" width="100%">
-</p>
-
-### Architecture Components
-
-| Component | Description |
-|-----------|-------------|
-| **Streamlit Frontend** | Interactive web interface for user interaction |
-| **Machine Learning Models** | Predict Heart, Diabetes, Kidney and Liver diseases |
-| **Rule-based Lipid Analyzer** | Performs cholesterol risk assessment |
-| **OCR Engine (pytesseract)** | Extracts text from uploaded medical reports |
-| **Groq LLM API** | Generates AI-powered explanations and answers |
-| **AI Healthcare Assistant** | Provides personalized recommendations and conversational support |
-
----
-
-# 🔄 Application Workflow
-
-
-### Workflow Steps
-
-1. User launches MediSense AI.
-2. Selects one of the healthcare modules.
-3. Enters patient details.
-4. (Optional) Uploads a medical report.
-5. OCR extracts text using **pytesseract**.
-6. Data is cleaned and preprocessed.
-7. Machine Learning or Rule-Based analysis is performed.
-8. Prediction results are generated.
-9. Prediction context is created.
-10. Context is sent to **Groq Llama Model**.
-11. AI Assistant explains the results.
-12. User asks follow-up healthcare questions.
-
----
-
-# 📂 Project Structure
-
-The project follows a modular architecture for scalability, maintainability and code reusability.
+### Extraction Workflow
 
 ```text
-MediSense-AI/
-│
-├── app.py
-├── requirements.txt
-├── packages.txt
-├── README.md
-├── .gitignore
-│
-├── images/
-│
-├── models/
-│
-├── pages/
-│   ├── 🏠 Home.py
-│   ├── ❤️ Heart_Disease.py
-│   ├── 🩸 Diabetes.py
-│   ├── 🟤 Kidney_Disease.py
-│   ├── 🟢 Liver_Disease.py
-│   ├── 🟡 Lipid_Profile.py
-│   └── 🩹 Symptom_Checker.py
-│
-├── components/
-│   └── ai_assistant.py
-│
-└── utils/
-    ├── chatbot.py
-    ├── extractor.py
-    └── helpers.py
+Medical Report
+      ↓
+File Upload
+      ↓
+PDF / Image Processing
+      ↓
+OCR / Text Extraction
+      ↓
+Medical Value Detection
+      ↓
+Extracted Values
+      ↓
+User Review & Correction
+      ↓
+Disease Prediction
 ```
 
-### Directory Description
+---
 
-| Folder | Purpose |
-|---------|----------|
-| **pages/** | Contains all disease prediction modules |
-| **models/** | Trained Machine Learning models |
-| **utils/** | OCR, chatbot and helper functions |
-| **components/** | Reusable Streamlit components |
-| **images/** | README screenshots and diagrams |
+## 🔍 Extracted Value Review
+
+After processing a report, extracted values are displayed for the user to verify.
+
+Users can correct any incorrectly detected value before continuing with the analysis.
+
+![Medical Report Analysis](screenshots/report-analysis.png)
+
+For example, the Lipid Profile module can extract values such as:
+
+* Total Cholesterol
+* LDL Cholesterol
+* HDL Cholesterol
+* VLDL Cholesterol
+* Triglycerides
+* Serum Total Lipids
 
 ---
 
-# 💻 Technology Stack
+# 🧠 Machine Learning Disease Prediction
 
-## Programming Language
+MediSense AI uses disease-specific machine learning models rather than relying on a single model for every condition.
 
-- Python
+This allows each disease module to use its own:
 
-## Frontend
+* Dataset
+* Features
+* Feature order
+* Model
+* Prediction logic
+* Analysis rules
 
-- Streamlit
+### Example Workflow
 
-## Machine Learning
-
-- Scikit-learn
-- Joblib
-- NumPy
-- Pandas
-
-## Computer Vision & OCR
-
-- OpenCV
-- pytesseract
-- Pillow
-
-## Artificial Intelligence
-
-- Groq API
-- Llama 3.3
-
-## Data Visualization
-
-- Matplotlib
-- Seaborn
-
-## Development Tools
-
-- Visual Studio Code
-- Git
-- GitHub
-
----
-
-# 🧠 Machine Learning Modules
-
-The application currently supports six healthcare modules.
-
-| Module | Method |
-|---------|---------|
-| ❤️ Heart Disease | Machine Learning |
-| 🩸 Diabetes | Machine Learning |
-| 🟤 Kidney Disease | Machine Learning |
-| 🟢 Liver Disease | Machine Learning |
-| 🟡 Lipid Profile | Rule-Based Analysis |
-| 🩹 Symptom Checker | Machine Learning |
-
-Each prediction module generates health recommendations which are further explained using the integrated AI Assistant powered by Groq Llama models.
-
----
-# 📸 Application Screenshots
-
-The following screenshots demonstrate the major functionalities of **MediSense AI**.
-
----
-
-# 🏠 Home Page
-
-The home page provides an overview of the application, available healthcare modules, and quick navigation to disease prediction services.
-
-<p align="center">
-<img src="images/home.png" width="48%">
-<img src="images/home2.png" width="48%">
-</p>
-
----
-
-# 📂 Navigation Sidebar
-
-The sidebar allows users to quickly navigate between healthcare modules.
-
-<p align="center">
-<img src="images/sidebar.png" width="280">
-</p>
+```text
+Patient Information
+        ↓
+Medical Report / Manual Inputs
+        ↓
+Feature Extraction
+        ↓
+Feature Validation
+        ↓
+Disease-Specific ML Model
+        ↓
+Prediction
+        ↓
+Risk / Probability
+        ↓
+Health Analysis
+        ↓
+Recommendations
+```
 
 ---
 
 # ❤️ Heart Disease Prediction
 
-The Heart Disease module predicts the likelihood of cardiovascular disease using patient clinical information.
+The Heart Disease module analyzes relevant cardiovascular parameters and generates a machine-learning-based prediction.
 
-## Patient Input
+![Heart Disease Module](screenshots/heart.png)
 
-<p align="center">
-<img src="images/heart_input.png" width="90%">
-</p>
+The module can use information such as:
 
----
-
-## Prediction Result
-
-The application displays prediction results along with recommendations and health guidance.
-
-<p align="center">
-<img src="images/heart_prediction.png" width="90%">
-</p>
-
----
-
-## AI Healthcare Assistant
-
-Users can ask follow-up questions regarding their prediction.
-
-<p align="center">
-<img src="images/heart_chat.png" width="90%">
-</p>
-
----
-
-## Feature Correlation Heatmap
-
-<p align="center">
-<img src="images/heart_heatmap.png" width="70%">
-</p>
-
----
-
-## Confusion Matrix
-
-<p align="center">
-<img src="images/heart_cm.png" width="55%">
-</p>
+* Age
+* Gender
+* Chest pain
+* Blood pressure
+* Cholesterol
+* Blood sugar
+* ECG results
+* Maximum heart rate
+* Angina
+* ST depression
+* ST slope
+* Major vessels
+* Thalassemia-related values
 
 ---
 
 # 🩸 Diabetes Prediction
 
-The Diabetes Prediction module evaluates diabetes risk based on patient health parameters.
+The Diabetes module evaluates diabetes-related health parameters and generates a prediction based on the trained model.
 
-## Prediction Result
+![Diabetes Module](screenshots/diabetes.png)
 
-<p align="center">
-<img src="images/diabetes_prediction.png" width="90%">
-</p>
+The module is designed to simplify the process of entering health information and interpreting the resulting prediction.
 
 ---
 
-## Confusion Matrix
+# 🫁 Liver Disease Prediction
 
-<p align="center">
-<img src="images/diabetes_cm.png" width="55%">
-</p>
+The Liver Disease module analyzes liver-related medical parameters and provides a disease-risk prediction along with additional health guidance.
 
----
-
-# 🟤 Kidney Disease Prediction
-
-The Kidney Disease module predicts chronic kidney disease using laboratory and clinical features.
-
-## Prediction Result
-
-<p align="center">
-<img src="images/kidney_prediction.png" width="90%">
-</p>
+The system supports medical report extraction and allows users to review extracted values before prediction.
 
 ---
 
-## Confusion Matrix
+# 🫘 Kidney Disease Prediction
 
-<p align="center">
-<img src="images/kidney_cm.png" width="55%">
-</p>
+The Kidney Disease module provides a separate analysis workflow using kidney-related health parameters and its corresponding machine learning model.
 
 ---
 
-# 🟢 Liver Disease Prediction
+# 🧪 Lipid Profile Analysis
 
-The Liver Disease module predicts liver disorders using patient medical information.
+The Lipid Profile module analyzes blood lipid measurements and provides an interpretation of the user's lipid levels.
 
-## Prediction Result
+![Lipid Profile](screenshots/lipid.png)
 
-<p align="center">
-<img src="images/liver_prediction.png" width="90%">
-</p>
+The module can extract values such as:
 
----
+```text
+Total Cholesterol
+LDL Cholesterol
+HDL Cholesterol
+VLDL Cholesterol
+Triglycerides
+Serum Total Lipids
+```
 
-## Confusion Matrix
-
-<p align="center">
-<img src="images/liver_cm.png" width="55%">
-</p>
-
----
-
-# 🟡 Lipid Profile Analysis
-
-The Lipid Profile module performs rule-based analysis of cholesterol values and cardiovascular risk.
-
-<p align="center">
-<img src="images/lipid_prediction.png" width="90%">
-</p>
+The extracted values can be reviewed and corrected before analysis.
 
 ---
 
-# 🩹 Symptom Checker
+# 🩺 Symptom Checker
 
-The Symptom Checker predicts possible health conditions based on user-selected symptoms.
+The Symptom Checker provides a symptom-based healthcare analysis workflow.
 
-## Symptom Selection
+![Symptom Checker](screenshots/symptom-checker.png)
 
-<p align="center">
-<img src="images/symptom_input.png" width="90%">
-</p>
+Users can provide symptoms and receive an AI/ML-based assessment intended to help them better understand possible health concerns.
 
 ---
 
-## Prediction Result
+# 🤖 MediSense AI Assistant
 
-<p align="center">
-<img src="images/symptom_prediction.png" width="90%">
-</p>
+One of the major features of the application is the integrated **AI Healthcare Assistant**.
 
----
+![MediSense AI Assistant](screenshots/chatbot.png)
 
-## Confusion Matrix
+The assistant allows users to ask follow-up questions about their health analysis.
 
-<p align="center">
-<img src="images/symptom_cm.png" width="55%">
-</p>
+For example:
 
----
+```text
+What does my prediction mean?
 
-# 🤖 AI Healthcare Assistant
+Why is my cholesterol high?
 
-The AI Assistant is integrated into each prediction module and provides:
+What lifestyle changes should I make?
 
-- Disease explanations
-- Lifestyle recommendations
-- Medical guidance
-- Follow-up question answering
-- Personalized healthcare assistance
+What does this medical value mean?
 
-<p align="center">
-<img src="images/ai_assistant.png" width="90%">
-</p>
+What foods should I avoid?
+```
 
----
-# 🔍 Optical Character Recognition (OCR)
+The assistant can use the current analysis context to provide more relevant explanations.
 
-MediSense AI supports automatic extraction of text from uploaded medical reports using **pytesseract OCR**.
-
-## OCR Workflow
-
-- Upload a medical report (Image/PDF)
-- Extract text using Tesseract OCR
-- Identify important medical values
-- Send extracted information for prediction
-- Generate AI-assisted explanation
-
-### OCR Features
-
-- Medical report text extraction
-- Laboratory value identification
-- Automatic preprocessing
-- Integration with prediction modules
-- AI-assisted report explanation
+The chatbot is powered through the **Groq API**.
 
 ---
 
-# 🤖 AI Healthcare Assistant
+# 📊 Prediction & Health Insights
 
-One of the key features of MediSense AI is the integrated AI Healthcare Assistant powered by **Groq Llama 3.3**.
+After analysis, MediSense AI presents information in a user-friendly format.
 
-Unlike traditional healthcare prediction systems that only display results, MediSense AI explains predictions in natural language and allows users to ask follow-up questions.
+![Prediction Results](screenshots/prediction.png)
 
-## Capabilities
+Depending on the module, results can include:
 
-- Explain disease predictions
-- Interpret medical terminology
-- Lifestyle recommendations
-- Diet suggestions
-- Preventive measures
-- Answer follow-up questions
-- Personalized healthcare guidance
+* Prediction
+* Probability / risk percentage
+* BMI
+* BMI category
+* Summary
+* Possible health effects
+* Dietary recommendations
+* Lifestyle recommendations
+* Medical guidance
 
----
-
-# 📊 Model Performance
-
-| Module | Algorithm | Output |
-|---------|-----------|--------|
-| ❤️ Heart Disease | Machine Learning | Disease Prediction |
-| 🩸 Diabetes | Machine Learning | Diabetes Prediction |
-| 🟤 Kidney Disease | Machine Learning | CKD Prediction |
-| 🟢 Liver Disease | Machine Learning | Liver Disease Prediction |
-| 🟡 Lipid Profile | Rule-Based Analysis | Cholesterol Risk Analysis |
-| 🩹 Symptom Checker | Machine Learning | Possible Disease Prediction |
+The application is designed to present technical model output in a form that is easier for non-technical users to understand.
 
 ---
 
-# ⚡ Installation
+# 🏗️ System Architecture
 
-## Clone Repository
+```text
+                         ┌─────────────────────┐
+                         │       User          │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │   React Frontend    │
+                         │      + Vite         │
+                         └──────────┬──────────┘
+                                    │
+                              HTTP / REST
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │    FastAPI Backend  │
+                         │       Python        │
+                         └──────────┬──────────┘
+                                    │
+            ┌───────────────────────┼───────────────────────┐
+            │                       │                       │
+            ▼                       ▼                       ▼
+   ┌────────────────┐     ┌────────────────┐     ┌────────────────┐
+   │ Disease ML     │     │ Medical Report │     │ AI Healthcare  │
+   │ Models         │     │ Extraction/OCR │     │ Assistant      │
+   └────────────────┘     └────────────────┘     └────────────────┘
+            │                       │                       │
+            └───────────────────────┼───────────────────────┘
+                                    ▼
+                         ┌─────────────────────┐
+                         │ Prediction +        │
+                         │ Health Insights     │
+                         └─────────────────────┘
+```
+
+---
+
+# 🔄 Complete Application Workflow
+
+```text
+                    User
+                     │
+                     ▼
+              Select Module
+                     │
+                     ▼
+            Enter Personal Data
+                     │
+                     ▼
+       ┌─────────────┴─────────────┐
+       │                           │
+       ▼                           ▼
+ Upload Medical Report       Manual Input
+       │                           │
+       ▼                           │
+ OCR / Text Extraction             │
+       │                           │
+       ▼                           │
+ Extract Medical Values            │
+       │                           │
+       └─────────────┬─────────────┘
+                     ▼
+              Review Values
+                     │
+                     ▼
+             ML Model Prediction
+                     │
+                     ▼
+             Health Analysis
+                     │
+                     ▼
+        Recommendations & Insights
+                     │
+                     ▼
+             AI Assistant
+```
+
+---
+
+# 🛠️ Technology Stack
+
+| Category            | Technologies                 |
+| ------------------- | ---------------------------- |
+| Frontend            | React.js, Vite, React Router |
+| Styling             | CSS                          |
+| Icons               | React Icons                  |
+| Backend             | Python, FastAPI, Uvicorn     |
+| Machine Learning    | Scikit-learn, Pandas, NumPy  |
+| Model Storage       | Joblib                       |
+| OCR                 | Tesseract OCR, Pytesseract   |
+| PDF Processing      | PyMuPDF, pdfplumber          |
+| Image Processing    | Pillow                       |
+| Text Matching       | RapidFuzz                    |
+| AI Assistant        | Groq API                     |
+| API Communication   | REST / Fetch                 |
+| Version Control     | Git, GitHub                  |
+| Frontend Deployment | Vercel                       |
+| Backend Deployment  | Render + Docker              |
+
+---
+
+# 📁 Project Structure
+
+```text
+MediSense-AI/
+│
+├── api.py
+├── requirements.txt
+├── Dockerfile
+├── README.md
+│
+├── models/
+│   └── trained ML models
+│
+├── utils/
+│   ├── extractors
+│   ├── prediction utilities
+│   ├── analysis logic
+│   └── chatbot utilities
+│
+├── frontend/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── Sidebar.css
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── HeartDisease.jsx
+│   │   │   ├── Diabetes.jsx
+│   │   │   ├── LiverDisease.jsx
+│   │   │   ├── KidneyDisease.jsx
+│   │   │   ├── LipidProfile.jsx
+│   │   │   └── SymptomChecker.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── Home.jsx
+│   │   └── main.jsx
+│   │
+│   ├── package.json
+│   └── vite.config.js
+│
+└── screenshots/
+    ├── home.png
+    ├── heart.png
+    ├── report-analysis.png
+    ├── prediction.png
+    ├── chatbot.png
+    ├── diabetes.png
+    ├── lipid.png
+    └── symptom-checker.png
+```
+
+---
+
+# ⚙️ Running the Project Locally
+
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/shiwangiedulearn-jpg/MediSense-AI.git
-
 cd MediSense-AI
 ```
 
 ---
 
-## Create Virtual Environment
+## 2. Backend Setup
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
 
 ### Windows
 
 ```bash
-python -m venv venv
 venv\Scripts\activate
 ```
 
-### Linux / Mac
-
-```bash
-python3 -m venv venv
-
-source venv/bin/activate
-```
-
----
-
-## Install Dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Install Tesseract OCR
-
-### Windows
-
-Download and install
-
-https://github.com/UB-Mannheim/tesseract/wiki
-
-### Linux
-
-```bash
-sudo apt install tesseract-ocr
-```
-
----
-
-## Configure Environment Variables
-
-Create a **.env** file.
+Create a `.env` file:
 
 ```env
-GROQ_API_KEY=your_api_key_here
+GROQ_API_KEY=your_groq_api_key
 ```
 
----
-
-## Run Application
+Run the FastAPI backend:
 
 ```bash
-streamlit run app.py
+uvicorn api:app --host 0.0.0.0 --port 8000
+```
+
+API:
+
+```text
+http://127.0.0.1:8000
+```
+
+Swagger documentation:
+
+```text
+http://127.0.0.1:8000/docs
 ```
 
 ---
 
-# ▶️ Usage
+# 💻 Frontend Setup
 
-1. Launch the Streamlit application.
-2. Choose a healthcare module.
-3. Enter patient details.
-4. Upload a report if available.
-5. Generate prediction.
-6. Read recommendations.
-7. Ask the AI Assistant follow-up questions.
+Open another terminal:
 
----
+```bash
+cd frontend
+```
 
-# 📈 Future Enhancements
+Install dependencies:
 
-- PDF medical report parser
-- Multiple language support
-- Doctor dashboard
-- Patient history management
-- Cloud deployment
-- User authentication
-- Appointment scheduling
-- Voice Assistant
-- Mobile application
-- Integration with wearable devices
+```bash
+npm install
+```
 
----
+Start the development server:
 
-# 🛠 Tech Stack
+```bash
+npm run dev
+```
 
-| Category | Technologies |
-|----------|--------------|
-| Programming | Python |
-| Frontend | Streamlit |
-| Machine Learning | Scikit-learn |
-| OCR | pytesseract |
-| Computer Vision | OpenCV |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| LLM | Groq API (Llama 3.3) |
-| Version Control | Git & GitHub |
+The frontend will normally run at:
+
+```text
+http://localhost:5173
+```
 
 ---
 
-# 📌 Key Highlights
+# 🔐 Environment Variables
 
-✔ Multi-Disease Prediction
+The AI assistant uses the Groq API.
 
-✔ AI Healthcare Assistant
+Create:
 
-✔ Medical Report OCR
+```text
+.env
+```
 
-✔ Rule-Based Lipid Analysis
+and add:
 
-✔ Symptom Checker
+```env
+GROQ_API_KEY=your_groq_api_key
+```
 
-✔ Interactive Chat
+Never commit API keys to GitHub.
 
-✔ Modular Architecture
-
-✔ Real-time Predictions
-
-✔ Personalized Recommendations
-
-✔ User-friendly Interface
+Make sure `.env` is included in `.gitignore`.
 
 ---
 
-# 👩‍💻 Developer
+# 🔌 API Endpoints
 
-**Shiwangi**
+The FastAPI backend provides disease-specific endpoints for report extraction and prediction.
 
-B.Tech Computer Science Engineering
+### Heart Disease
 
-Artificial Intelligence & Machine Learning Enthusiast
+```text
+POST /heart/extract
+POST /heart/predict
+```
+
+### Diabetes
+
+```text
+POST /diabetes/extract
+POST /diabetes/predict
+```
+
+### Liver Disease
+
+```text
+POST /liver/extract
+POST /liver/predict
+```
+
+### Kidney Disease
+
+```text
+POST /kidney/extract
+POST /kidney/predict
+```
+
+### Lipid Profile
+
+```text
+POST /lipid/extract
+POST /lipid/predict
+```
+
+### Symptom Checker
+
+```text
+POST /symptom/predict
+```
+
+Interactive API documentation is available through FastAPI Swagger.
 
 ---
 
-# 🙏 Acknowledgements
+# ☁️ Deployment
 
-Special thanks to the open-source community and the developers of:
+## Frontend — Vercel
 
-- Streamlit
-- Scikit-learn
-- OpenCV
-- pytesseract
-- Groq
-- Llama Models
-- Pandas
-- NumPy
-- Matplotlib
+The React/Vite frontend is deployed using **Vercel**.
+
+Live application:
+
+https://medi-sense-ai-eight-nu.vercel.app/
+
+## Backend — Render
+
+The FastAPI backend is deployed using **Render with Docker**.
+
+Backend:
+
+https://medisense-ai-backend-q7dk.onrender.com/
+
+Swagger:
+
+https://medisense-ai-backend-q7dk.onrender.com/docs
+
+Docker is used because the application requires system-level OCR dependencies such as **Tesseract**.
 
 ---
 
-# 📄 License
+# 🔮 Future Improvements
 
-This project is developed for **educational and research purposes**.
+Some planned improvements include:
 
-Feel free to fork, improve and contribute.
+* Improved disease-specific models
+* Larger and more diverse medical datasets
+* Better handwritten report OCR
+* More medical report formats
+* Additional disease modules
+* Improved model explainability
+* Patient history and authentication
+* Downloadable health reports
+* Multilingual healthcare assistant
+* Voice-based interaction
+* RAG-based medical knowledge system
+* Doctor / healthcare professional dashboard
 
 ---
 
-<div align="center">
+# ⚠️ Medical Disclaimer
 
-## ⭐ If you like this project, don't forget to Star the repository!
+MediSense AI is an educational and decision-support project.
 
-Made with ❤️ using Python, Streamlit, Machine Learning, OCR and Generative AI.
+Machine learning predictions may contain errors and should **not** be considered a confirmed medical diagnosis.
 
-</div>
+The application does not replace professional medical consultation, laboratory testing, or emergency medical services.
+
+For serious or emergency symptoms, users should seek immediate medical attention.
+
+---
+
+# 👩‍💻 Author
+
+### Shiwangi 
+
+**B.Tech Computer Science & Engineering**
+
+Interested in:
+
+* Artificial Intelligence
+* Machine Learning
+* Data Science
+* Full-Stack Development
+
+---
+
+## ⭐ Support the Project
+
+If you find **MediSense AI** interesting or useful, consider giving the repository a ⭐ on GitHub.
+
+**Built with ❤️ using React, FastAPI, Machine Learning and AI.**
